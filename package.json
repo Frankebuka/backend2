@@ -1,0 +1,27 @@
+{
+  "name": "bankserver",
+  "version": "1.0.0",
+  "description": "This server helps you to manage your bank accounts",
+  "main": "index.js",
+  "author": "Frank",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3"
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "keywords": [
+    "Banks",
+    "Account",
+    "Server"
+  ]
+}
